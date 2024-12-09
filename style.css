@@ -1,0 +1,63 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-content: center;
+    background-color: #e5e5e5;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    background-color: white;
+    padding: 1.325em;
+    border-radius: 12px;
+    position: relative;
+    max-height: 500px;
+    max-width: 500px;
+}
+
+.img-container {
+    overflow: hidden;
+    max-height: 300px
+}
+
+button {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    font-size: 1.325em;
+    padding: 1.325em;
+    font-weight: bold;
+    font-family: inherit;
+    aspect-ratio: 1;
+    display: grid;
+    place-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); /* Adjusts position to center the button vertically */
+}
+
+#left {
+    left: -22px;
+}
+
+#right { 
+    right: -22px;
+}
